@@ -102,3 +102,76 @@ body {
     font-family: "PT Sans", sans-serif;
     font-size: 24px;
 }
+.sobre {
+    color: #fff;
+}
+
+.sobre h1 {
+    font-family: "Koulen", sans-serif;
+    font-size: 48px;
+    position: relative;
+    top: 6px;
+}
+
+.sobre h2{
+    font-family: "Koulen", sans-serif;
+    font-size: 36px;
+    position: relative;
+    top: 6px;
+}
+
+.sobre h3{
+    font-family: "Koulen", sans-serif;
+    font-size: 28px;
+    position: relative;
+    top: 6px;
+}
+
+.sobre p{
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+}
+
+.sobre-projeto {
+    background-color: #1f0310;
+}
+
+.sobre-escola {
+
+}
+
+.sobre-alunos {
+    background-color: #1f0310;
+}
+
+.sobre-copa2026 {
+
+}
+
+.sobre-copa2022 {
+    background-color: #1f0310;
+}
+
+.sobre-copa2018 {
+    
+}
+
+.sobre-copa2014 {
+    background-color: #1f0310;
+}
+
+.sobre-copa2010 {
+    
+}
+
+.sobre-copa2006 {
+    
+}
+
+.sobre-copa2002 {
+    background-color: #1f0310;
+}
+
+
+
+
