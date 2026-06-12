@@ -85,7 +85,7 @@ body {
 .slide-description {
     background: linear-gradient(to top, #000, transparent);
     color: #ffff;
-    position: absolute;
+    position: relative;
     padding: 30px;
     bottom: 0;
     width: 100%;
@@ -130,6 +130,7 @@ body {
 .sobre p{
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
+    text-align: justify;
 }
 
 .sobre-projeto {
