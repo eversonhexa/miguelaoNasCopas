@@ -93,14 +93,14 @@ body {
 
 .slide-description h3 {
     font-family: "Koulen", sans-serif;
-    font-size: 24px;
+    font-size: 48px;
     position: relative;
     top: 6px;
 }
 
 .slide-description p {
     font-family: "PT Sans", sans-serif;
-    font-size: 12px;
+    font-size: 24px;
 }
 .sobre {
     color: #fff;
