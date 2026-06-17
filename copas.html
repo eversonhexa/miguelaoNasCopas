@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style-header.css">
+    <link rel="stylesheet" href="./assets/css/style-copas.css" />
+    <title>Miguelão nas Copas</title>
+</head>
+<header class="header">
+    <div class="header-logo">
+        <a href="#"><img src="./assets/imgs/logoMiguelaoNasCopas.png" alt="Logomarca"></a>
+    </div>
+    <nav class="header-menu">
+        <ul class="menu-nav">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./projeto.html">Projeto</a></li>
+            <li><a href="./edicoes.html">Edições</a></li>
+            <li><a href="./copas.html">Copas</a></li>
+            <li><a href="./escola.html">Escola</a></li>
+            <li><a href="./pessoas.html">Pessoas</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+            <button class="slide-nav-button slide-nav-previous fas fa-chevron-left"
+                data-slide="nav-previous-button"></button>
+            <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+            <div class="slide-list" data-slide="list">
+                <div class="slide-item" data-slide="item" data-index="0">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/2002-japao.png" alt="Assassin's Creed" />
+                        <div class="slide-description">
+                            <h3>Coreia do Sul e Japao</h3>
+                            <p>Copa do mundo de 2002</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="1">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/2006-alemanha.png" alt="Fortnite" />
+                        <div class="slide-description">
+                            <h3>Alemanha</h3>
+                            <p>Copa do Mundo de 2006</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="2">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/2010-africa.png" alt="Freefire" />
+                        <div class="slide-description">
+                            <h3>Africa do Sul</h3>
+                            <p>Copa do mundo de 2010</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="3">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/2014-brasil.png" alt="GTA V" />
+                        <div class="slide-description">
+                            <h3>Breasil</h3>
+                            <p>Copa do mundo de 2014</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="4">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/2018-russia.png" alt="Halo 5" />
+                        <div class="slide-description">
+                            <h3>Russia</h3>
+                            <p>Copa do mundo de 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="5">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/2022-catar.png" alt="League of Legends" />
+                        <div class="slide-description">
+                            <h3>Catar</h3>
+                            <p>Copa do mundo de 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="6">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/2026-eua.png" alt="Red Dead Redemption 2" />
+                        <div class="slide-description">
+                            <h3>Estados Unidos, Mexico e Canada</h3>
+                            <p>Copa do mundo de 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-controls" data-slide="controls-wrapper">
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/slides.js"></script>
+    <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: 0,
+            timeInterval: 2000
+        })
+    </script>
+</body>
+
+</html>

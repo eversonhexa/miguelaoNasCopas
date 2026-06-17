@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #1f2029;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f0310;
+    /* Cor de fundo do cabeçalho */
+    padding: 20px 50px;
+}
+
+.header-logo img {
+    width: 150px;
+    /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+    display: block;
+}
+
+.header-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    /* Espaçamento entre os links do menu */
+}
+
+.header-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header-menu ul li a:hover {
+    color: #f4a261;
+    /* Cor ao passar o mouse */
+}
