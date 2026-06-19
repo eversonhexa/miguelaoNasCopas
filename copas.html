@@ -20,11 +20,11 @@
     <nav class="header-menu">
         <ul class="menu-nav">
             <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./projeto.html">Projeto</a></li>
-            <li><a href="./edicoes.html">Edições</a></li>
-            <li><a href="./copas.html">Copas</a></li>
-            <li><a href="./escola.html">Escola</a></li>
-            <li><a href="./pessoas.html">Pessoas</a></li>
+            <li><a href="./projeto.html">O Projeto</a></li>
+            <li><a href="./escola.html">A Escola</a></li>
+            <li><a href="./linha.html">As Copas</a></li>
+            <li><a href="./copas.html">As Sedes</a></li>
+            <li><a href="./pessoas.html">As Pessoas</a></li>
 
         </ul>
     </nav>
@@ -68,7 +68,7 @@
                     <div class="slide-content">
                         <img class="slide-image" src="./assets/imgs/2014-brasil.png" alt="GTA V" />
                         <div class="slide-description">
-                            <h3>Breasil</h3>
+                            <h3>Brasil</h3>
                             <p>Copa do mundo de 2014</p>
                         </div>
                     </div>
@@ -112,6 +112,27 @@
             startAtIndex: 0,
             timeInterval: 2000
         })
+    </script>
+    <script>
+        const paginasCopa = {
+        0: 'copa2002.html',
+        1: 'copa2006.html',
+        2: 'copa2010.html',
+        3: 'copa2014.html',
+        4: 'copa2018.html',
+        5: 'copa2022.html',
+        6: 'copa2026.html'
+    };
+
+    document.querySelectorAll('.slide-item').forEach(slide => {
+        slide.addEventListener('click', function () {
+            const indice = this.dataset.index;
+
+            if (paginasCopa[indice]) {
+                window.location.href = paginasCopa[indice];
+            }
+        });
+    });
     </script>
 </body>
 

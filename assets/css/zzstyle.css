@@ -1,14 +1,11 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
     height: 100%;
 }
 
@@ -19,7 +16,7 @@ body {
 .wrapper {
     display: flex;
     align-items: center;
-    height: 70%;
+    height: 100%;
 }
 
 .slide-wrapper {
@@ -35,10 +32,10 @@ body {
 }
 
 .slide-item {
-    cursor: pointer;
+    cursor: grab;
     flex-shrink: 0;
     padding: 0 10px;
-    width: 50vw;
+    width: 90vw;
 }
 
 .slide-content {
@@ -112,7 +109,7 @@ body {
     .slide-description {
         padding: 10px;
     }
-
+    
     .slide-description h3 {
         font-size: 24px;
         top: 0;
@@ -126,11 +123,11 @@ body {
         margin-top: -20px;
         font-size: 28px;
     }
-
+    
     .slide-nav-previous {
         left: 10px;
     }
-
+    
     .slide-nav-next {
         right: 10px;
     }
