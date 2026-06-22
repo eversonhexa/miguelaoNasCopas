@@ -284,3 +284,12 @@ body {
     margin: 16px 16px 16px 16px;
     width: 40vw;
 }
+
+.img-escola {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: #070707 0px 12px 12px;
+    position: relative;
+    margin: 16px 16px 16px 16px;
+    width: 40vw;
+}
