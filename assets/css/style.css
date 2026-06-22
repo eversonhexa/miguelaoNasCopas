@@ -51,6 +51,19 @@ body {
     margin-top: 0;
 }
 
+.conteudo-projetp h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 48px;
+    position: relative;
+    top: 16px
+}
+
+.conteudo-projeto p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    bottom: 16px;
+}
+
 .conteudo-escola {
     text-align: justify;
     color: #fff;
@@ -61,14 +74,14 @@ body {
     margin-top: 0;
 }
 
-h3 {
+.conteudo-escola h3 {
     font-family: 'Koulen', sans-serif;
     font-size: 48px;
     position: relative;
     top: 16px
 }
 
-p {
+.conteudo-escola p {
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
     bottom: 16px;
@@ -84,17 +97,164 @@ p {
     margin-top: 0;
 }
 
-h3 {
+.conteudo-copa2002 h3 {
     font-family: 'Koulen', sans-serif;
     font-size: 48px;
     position: relative;
     top: 16px
 }
 
-p {
+.conteudo-copa2002 p {
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
     bottom: 16px;
+    margin: 16px 16px 16px 16px;
+}
+
+.conteudo-copa2006 {
+    text-align: justify;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+.conteudo-copa2006 h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 48px;
+    position: relative;
+    top: 16px
+}
+
+.conteudo-copa2006 p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    bottom: 16px;
+    margin: 16px 16px 16px 16px;
+}
+
+.conteudo-copa2010 {
+    text-align: justify;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+.conteudo-copa2010 h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 48px;
+    position: relative;
+    top: 16px
+}
+
+.conteudo-copa2010 p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    bottom: 16px;
+    margin: 16px 16px 16px 16px;
+}
+
+
+.conteudo-copa2014 {
+    text-align: justify;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+.conteudo-copa2014 h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 48px;
+    position: relative;
+    top: 16px
+}
+
+.conteudo-copa2014 p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    bottom: 16px;
+    margin: 16px 16px 16px 16px;
+}
+
+
+.conteudo-copa2018 {
+    text-align: justify;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+.conteudo-copa2018 h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 48px;
+    position: relative;
+    top: 16px
+}
+
+.conteudo-copa2018 p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    bottom: 16px;
+    margin: 16px 16px 16px 16px;
+}
+
+.conteudo-copa2022 {
+    text-align: justify;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+.conteudo-copa2022 h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 48px;
+    position: relative;
+    top: 16px
+}
+
+.conteudo-copa2022 p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    bottom: 16px;
+    margin: 16px 16px 16px 16px;
+}
+
+.conteudo-copa2026 {
+    text-align: justify;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+.conteudo-copa2026 h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 48px;
+    position: relative;
+    top: 16px
+}
+
+.conteudo-copa2026 p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    bottom: 16px;
+    margin: 16px 16px 16px 16px;
 }
 
 .conteudo-quadro1 {
@@ -113,6 +273,7 @@ p {
     box-shadow: #070707 0px 12px 12px;
     position: relative;
     margin: 16px 16px 16px 16px;
+    width: 40vw;
 }
 
 .img-campeao {
@@ -121,4 +282,5 @@ p {
     box-shadow: #070707 0px 12px 12px;
     position: relative;
     margin: 16px 16px 16px 16px;
+    width: 40vw;
 }
