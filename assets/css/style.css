@@ -24,8 +24,8 @@ body {
     position: relative;
     padding: 30px;
     bottom: 0;
-    width: 100%;   
-    margin-top: 0; 
+    width: 100%;
+    margin-top: 0;
 }
 
 .conteudo-index h3 {
@@ -47,8 +47,8 @@ body {
     position: relative;
     padding: 30px;
     bottom: 0;
-    width: 100%;   
-    margin-top: 0; 
+    width: 100%;
+    margin-top: 0;
 }
 
 .conteudo-escola {
@@ -57,8 +57,8 @@ body {
     position: relative;
     padding: 30px;
     bottom: 0;
-    width: 100%;   
-    margin-top: 0; 
+    width: 100%;
+    margin-top: 0;
 }
 
 h3 {
@@ -72,4 +72,53 @@ p {
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
     bottom: 16px;
+}
+
+.conteudo-copa2002 {
+    text-align: justify;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 48px;
+    position: relative;
+    top: 16px
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    bottom: 16px;
+}
+
+.conteudo-quadro1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-quadro2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-estadio {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: #070707 0px 12px 12px;
+    position: relative;
+    margin: 16px 16px 16px 16px;
+}
+
+.img-campeao {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: #070707 0px 12px 12px;
+    position: relative;
+    margin: 16px 16px 16px 16px;
 }

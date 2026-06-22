@@ -39,7 +39,7 @@
             <div class="slide-list" data-slide="list">
                 <div class="slide-item" data-slide="item" data-index="0">
                     <div class="slide-content">
-                        <img class="slide-image" src="./assets/imgs/2002-japao.png" alt="Assassin's Creed" />
+                        <img class="slide-image" src="./assets/imgs/2002-japao.png" alt="Imagem - país sede 2002" />
                         <div class="slide-description">
                             <h3>Coreia do Sul e Japao</h3>
                             <p>Copa do mundo de 2002</p>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="slide-item" data-slide="item" data-index="1">
                     <div class="slide-content">
-                        <img class="slide-image" src="./assets/imgs/2006-alemanha.png" alt="Fortnite" />
+                        <img class="slide-image" src="./assets/imgs/2006-alemanha.png" alt="Imagem - país sede 2006" />
                         <div class="slide-description">
                             <h3>Alemanha</h3>
                             <p>Copa do Mundo de 2006</p>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="slide-item" data-slide="item" data-index="2">
                     <div class="slide-content">
-                        <img class="slide-image" src="./assets/imgs/2010-africa.png" alt="Freefire" />
+                        <img class="slide-image" src="./assets/imgs/2010-africa.png" alt="Imagem - país sede 2010" />
                         <div class="slide-description">
                             <h3>Africa do Sul</h3>
                             <p>Copa do mundo de 2010</p>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="slide-item" data-slide="item" data-index="3">
                     <div class="slide-content">
-                        <img class="slide-image" src="./assets/imgs/2014-brasil.png" alt="GTA V" />
+                        <img class="slide-image" src="./assets/imgs/2014-brasil.png" alt="Imagem - país sede 2014" />
                         <div class="slide-description">
                             <h3>Brasil</h3>
                             <p>Copa do mundo de 2014</p>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="slide-item" data-slide="item" data-index="4">
                     <div class="slide-content">
-                        <img class="slide-image" src="./assets/imgs/2018-russia.png" alt="Halo 5" />
+                        <img class="slide-image" src="./assets/imgs/2018-russia.png" alt="Imagem - país sede 2018" />
                         <div class="slide-description">
                             <h3>Russia</h3>
                             <p>Copa do mundo de 2018</p>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="slide-item" data-slide="item" data-index="5">
                     <div class="slide-content">
-                        <img class="slide-image" src="./assets/imgs/2022-catar.png" alt="League of Legends" />
+                        <img class="slide-image" src="./assets/imgs/2022-catar.png" alt="Imagem - país sede 2022" />
                         <div class="slide-description">
                             <h3>Catar</h3>
                             <p>Copa do mundo de 2022</p>
@@ -93,7 +93,7 @@
                 </div>
                 <div class="slide-item" data-slide="item" data-index="6">
                     <div class="slide-content">
-                        <img class="slide-image" src="./assets/imgs/2026-eua.png" alt="Red Dead Redemption 2" />
+                        <img class="slide-image" src="./assets/imgs/2026-eua.png" alt="Imagem - país sede 2026" />
                         <div class="slide-description">
                             <h3>Estados Unidos, Mexico e Canada</h3>
                             <p>Copa do mundo de 2026</p>
@@ -115,24 +115,24 @@
     </script>
     <script>
         const paginasCopa = {
-        0: 'copa2002.html',
-        1: 'copa2006.html',
-        2: 'copa2010.html',
-        3: 'copa2014.html',
-        4: 'copa2018.html',
-        5: 'copa2022.html',
-        6: 'copa2026.html'
-    };
+            0: 'copa2002.html',
+            1: 'copa2006.html',
+            2: 'copa2010.html',
+            3: 'copa2014.html',
+            4: 'copa2018.html',
+            5: 'copa2022.html',
+            6: 'copa2026.html'
+        };
 
-    document.querySelectorAll('.slide-item').forEach(slide => {
-        slide.addEventListener('click', function () {
-            const indice = this.dataset.index;
+        document.querySelectorAll('.slide-item').forEach(slide => {
+            slide.addEventListener('click', function () {
+                const indice = this.dataset.index;
 
-            if (paginasCopa[indice]) {
-                window.location.href = paginasCopa[indice];
-            }
+                if (paginasCopa[indice]) {
+                    window.location.href = paginasCopa[indice];
+                }
+            });
         });
-    });
     </script>
 </body>
 
