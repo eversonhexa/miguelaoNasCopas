@@ -51,7 +51,7 @@ body {
     margin-top: 0;
 }
 
-.conteudo-projetp h3 {
+.conteudo-projeto h3 {
     font-family: 'Koulen', sans-serif;
     font-size: 48px;
     position: relative;
@@ -62,6 +62,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
     bottom: 16px;
+    margin: 16px 16px 16px 16px;
 }
 
 .conteudo-escola {
@@ -292,4 +293,13 @@ body {
     position: relative;
     margin: 16px 16px 16px 16px;
     width: 40vw;
+}
+
+.img-alunos {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: #070707 0px 12px 12px;
+    position: relative;
+    margin: 16px 16px 16px 16px;
+    width: 25vw;
 }
