@@ -86,6 +86,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
     bottom: 16px;
+    margin: 16px 16px 16px 16px;
 }
 
 .conteudo-copa2002 {
@@ -301,5 +302,5 @@ body {
     box-shadow: #070707 0px 12px 12px;
     position: relative;
     margin: 16px 16px 16px 16px;
-    width: 25vw;
+    width: 50vw;
 }
