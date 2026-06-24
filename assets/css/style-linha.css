@@ -78,10 +78,11 @@ header{
     /*
     background:white;
     */
-    background:rgb(129, 125, 125);
+    background:#1f2029;
+    border: 1px solid #ddd;
     padding:20px;
     border-radius:10px;
-    box-shadow:0 3px 10px rgba(0,0,0,.1);
+    box-shadow:0 6px 20px #646262;
 }
 
 .foto{
@@ -101,7 +102,7 @@ header{
 }
 
 .info h2{
-    color:#0a2342;
+    color:#22dae0;
     margin-bottom:10px;
 }
 
