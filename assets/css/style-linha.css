@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    background:#f5f5f5;
+    color:#333;
+    */
+    background-color: #1f2029;
+    color: #fff;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:40px 20px;
+    /*
+    background:#0a2342;
+    color:white;
+    */
+    background:#fff;
+    color:#0a2342;
+}
+
+.timeline{
+    position:relative;
+    width:90%;
+    max-width:1200px;
+    margin:50px auto;
+}
+
+.timeline::before{
+    content:"";
+    position:absolute;
+    left:50px;
+    top:0;
+    width:4px;
+    height:100%;
+    /*
+    background:#0a2342;
+    */
+    background:#fff;
+}
+
+.evento{
+    position:relative;
+    margin-bottom:60px;
+    padding-left:100px;
+}
+
+.ano{
+    position:absolute;
+    left:20px;
+    top:20px;
+    width:60px;
+    height:60px;
+    /*
+    alterado efs 20260624
+    background:#0a2342;
+    color:white;
+    */
+    background:#fff;
+    color:#0a2342;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+}
+
+.conteudo{
+    display:flex;
+    gap:20px;
+    /*
+    background:white;
+    */
+    background:rgb(129, 125, 125);
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.foto{
+    min-width:180px;
+}
+
+.foto img{
+    width:180px;
+    height:120px;
+    object-fit:cover;
+    border-radius:8px;
+    border:2px solid #ddd;
+}
+
+.info{
+    flex:1;
+}
+
+.info h2{
+    color:#0a2342;
+    margin-bottom:10px;
+}
+
+.destaque{
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.estatisticas{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+}
+
+.card{
+    background:#e9eef5;
+    padding:12px;
+    text-align:center;
+    border-radius:8px;
+}
+
+.card span{
+    display:block;
+    font-size:0.8rem;
+    color:#666;
+}
+
+.card strong{
+    display:block;
+    margin-top:5px;
+    color:#0a2342;
+}
+
+@media(max-width:768px){
+
+    .timeline::before{
+        left:30px;
+    }
+
+    .evento{
+        padding-left:70px;
+    }
+
+    .ano{
+        width:45px;
+        height:45px;
+        left:8px;
+        font-size:0.8rem;
+    }
+
+    .conteudo{
+        flex-direction:column;
+    }
+
+    .foto img{
+        width:100%;
+        height:auto;
+    }
+
+    .estatisticas{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
