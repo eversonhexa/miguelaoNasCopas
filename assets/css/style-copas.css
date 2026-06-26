@@ -19,7 +19,7 @@ body {
 .wrapper {
     display: flex;
     align-items: center;
-    height: 70%;
+    height: 60%;
 }
 
 .slide-wrapper {
