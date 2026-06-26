@@ -21,8 +21,8 @@ body {
     position: relative;
     padding: 30px;
     bottom: 0;
-    width: 100%;   
-    margin-top: 0; 
+    width: 100%;
+    margin-top: 0;
 }
 
 .pessoas h3 {
@@ -87,14 +87,14 @@ body {
 
 .slide-description h3 {
     font-family: 'Koulen', sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     position: relative;
     top: 16px
 }
 
 .slide-description p {
     font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .slide-nav-button {
